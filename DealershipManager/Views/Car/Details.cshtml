@@ -1,0 +1,33 @@
+﻿@model DealershipManager.Models.Car
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Car</legend>
+
+    <div class="display-label">
+        <span style="font-weight: bold;">@Html.DisplayNameFor(model => model.Make)</span>
+        <span style="font-weight: bold;">: </span>
+        <span>@Html.DisplayFor(model => model.Make)</span>
+    </div>
+
+    <div class="display-label">
+        <span style="font-weight: bold;">@Html.DisplayNameFor(model => model.Model)</span>
+        <span style="font-weight: bold;">: </span>
+        <span>@Html.DisplayFor(model => model.Model)</span>
+    </div>
+
+    <div class="display-label">
+        <span style="font-weight: bold;">@Html.DisplayNameFor(model => model.Color)</span>
+        <span style="font-weight: bold;">: </span>
+        <span>@Html.DisplayFor(model => model.Color)</span>
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

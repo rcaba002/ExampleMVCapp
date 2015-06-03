@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealershipManager", "DealershipManager\DealershipManager.csproj", "{AD1E87A2-A852-42BD-AC99-D7BA441B7075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealershipManager.Tests", "DealershipManager.Tests\DealershipManager.Tests.csproj", "{5178F2B1-E9CE-4ABD-8E62-9C89D754CA23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD1E87A2-A852-42BD-AC99-D7BA441B7075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1E87A2-A852-42BD-AC99-D7BA441B7075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1E87A2-A852-42BD-AC99-D7BA441B7075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1E87A2-A852-42BD-AC99-D7BA441B7075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5178F2B1-E9CE-4ABD-8E62-9C89D754CA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5178F2B1-E9CE-4ABD-8E62-9C89D754CA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5178F2B1-E9CE-4ABD-8E62-9C89D754CA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5178F2B1-E9CE-4ABD-8E62-9C89D754CA23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
